@@ -1,0 +1,143 @@
+*,
+::before,
+::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar{
+    overflow-y: hidden;
+    visibility: hidden;
+}
+body{
+    width: 100%;
+}
+h1{
+    font-size: 2em;
+}
+.highlight{
+    color: #EB4314;
+}
+/* * Css index.php */
+/* * Partie Home/Couverture */
+#body-header h1,
+#body-header a{
+    color: #ffffff;
+}
+#body-header{
+    background: #35424A;
+    border-bottom: 3px solid #EB4314;
+    width: 100%;
+    padding: 1em;
+    /* height: 5em; */
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+#body-header h1{
+    padding-left: 1em;
+}
+#body-header #nav-small{
+    color: #ffffff;
+    list-style-type: none;
+}
+#body-header nav{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#body-header nav a{
+    margin-right: 2em;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    transition: .5s;
+}
+#body-header nav a:hover{
+    color: #EB4314;
+}
+
+/* * Partie Main/Page-Content */
+#index-main{
+    background-image: url("../images/showcase.jpg");
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    height: auto;
+}
+#index-main #index-main-header{
+    height: 80vh;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#index-main #index-main-header h1{
+    padding: 0 .5em;
+}
+#index-main #index-main-header p{
+    display: block;
+    font-size: .7em;
+    width: 80%;
+}
+
+/* ! Partie Newsletters (vérifier si duplication nécessaire) */
+#newsletter{
+    width: 100%;
+    padding: 1em 0;
+    background: #35424A;
+    color: #ffffff;
+    border-top: 3px solid #EB4314;
+    border-bottom: 3px solid #EB4314;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#newsletter h1{
+    text-align: center;
+    font-size: .8em;
+}
+#newsletter form{
+    width: 80%;
+    gap: 3px;
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+}
+#newsletter form input{
+    height: 30px;
+}
+#newsletter form input[type = "mail"]{
+    padding-left: 1em;
+}
+#newsletter form input[type = "submit"]{
+    color: #ffffff;
+    background: #EB4314;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+/* * Partie Footer */
+#footer{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    background: #35424A;
+    border-top: 3px solid #EB4314;
+}
+
