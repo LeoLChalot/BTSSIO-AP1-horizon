@@ -19,7 +19,7 @@ h1{
     color: #EB4314;
 }
 /* * Css index.php */
-/* * Partie Home/Couverture */
+/* * Partie Header */
 #body-header h1,
 #body-header a{
     color: #ffffff;
@@ -39,14 +39,23 @@ h1{
     justify-content: space-around;
     box-shadow: 0px 10px 19px 7px rgba(0, 0, 0, .5);
 }
-#body-header h1{
-    padding-left: 1em;
-}
 #body-header #nav-small{
     color: #ffffff;
     list-style-type: none;
+    display: block;
 }
-#body-header nav{
+
+#body-header #nav-large{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#body-header #nav-large a{
+    display: none;
+}
+
+#body-header #nav-small nav{
     width: 100%;
     margin: auto;
     text-align: center;
@@ -67,18 +76,20 @@ h1{
 
 /* * Partie Main/Page-Content */
 #index-main{
-    background-image: url("../images/showcase.jpg");
+    background-image: url("../images/wallpaper2.jpg");
     background-position: fixed;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     top: 0;
-    height: auto;
+    
+
 }
 #index-main #index-main-header{
     height: 100vh;
     width: 100%;
     color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -91,7 +102,6 @@ h1{
     padding-top: 2em;
 }
 #index-main #index-main-header p{
-    display: block;
     width: 80%;
 }
 
@@ -147,6 +157,9 @@ h1{
     justify-content: center;
     align-items: center;
     padding: 1em;
+    width: 70%;
+    max-width: 450px;
+    margin: auto;
 }
 .work-card img{
     width: 100px;
@@ -171,3 +184,34 @@ h1{
     align-items: center;
 }
 
+/* ? Media Queries */
+@media screen and (min-width: 768px){
+    /* * Partie Header */
+    #body-header{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #body-header #nav-small{
+        display: none;
+    }
+    #body-header #nav-large{
+        display: flex;
+    }
+    #body-header #nav-large a{
+        display: block;
+        line-height: 20px;
+        margin-right: 1em;
+    }
+
+    /* * Partie Worklist */
+    #index-worklist{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .work-card{
+        width: 300px!important;
+    }
+}
+@media screen and (min-width: 1024px){}
+@media screen and (min-width: 1824px){}

@@ -12,7 +12,6 @@
 
 <body>
     <header id="body-header">
-        <!-- <img src="assets/images/logo2.png" alt="Logo Principal" width="50"> -->
         <h1 id="title"><span class="highlight">Horizon</span> Dev Web</h1>
         <details id="nav-small">
             <summary>Menu</summary>
@@ -23,5 +22,11 @@
                 <a href="#">Follow-up</a>
             </nav>
         </details>
+        <nav id="nav-large">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Follow-up</a>
+        </nav>
     </header>
     <div id="page-content">
