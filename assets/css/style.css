@@ -12,7 +12,8 @@
 }
 body{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
+    overflow-y: scroll;
 }
 h1{
     font-size: 2em;
@@ -30,6 +31,7 @@ h1{
     background: #35424A;
     border-bottom: 3px solid #EB4314;
     width: 100%;
+    min-height: 3vh;
     padding: 1em;
     position: relative;
     top: 0;
@@ -84,8 +86,7 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
     top: 0;
-    
-
+    min-height: 97vh;
 }
 #index-main #index-main-header{
     height: 100vh;
@@ -101,7 +102,6 @@ h1{
 }
 #index-main #index-main-header h1{
     padding: 0 .5em;
-    padding-top: 2em;
 }
 #index-main #index-main-header p{
     width: 80%;
