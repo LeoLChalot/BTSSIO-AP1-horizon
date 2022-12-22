@@ -30,4 +30,4 @@
             <a href="contact.php" title="Contactez-nous !">Contact</a>
         </nav>
     </header>
-    <main style="background: url('assets/images/<?= $title ;?>.jpg');">
+    <main style="background: #35424A url('assets/images/<?= $title ;?>.jpg');">

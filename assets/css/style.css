@@ -93,6 +93,7 @@ h1{
 main{
     width: 100vw;
     min-height: 90vh;
+
     /* background: url('../images/.jpg'); */
     background-attachment: fixed!important;
     background-position: center!important;
@@ -103,8 +104,19 @@ main{
 main #index-main-header{
     height: 90vh;
     width: 100%;
-    color: #ffffff;
+    color: #35424A;
     background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#index-main-header-content{
+    width: 50%;
+    min-width: 400px;
+    max-width: 800px;
+    padding: 2em;
+    border-radius: 15px;
+    backdrop-filter: blur(30px);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -112,11 +124,11 @@ main #index-main-header{
     align-items: center;
     gap: 50px;
 }
-main #index-main-header h1{
+main #index-main-header #index-main-header-content h1{
     padding: 0 .5em;
 }
-main #index-main-header p{
-    width: 80%;
+main #index-main-header #index-main-header-content p{
+    width: 60%;
 }
 
 /* ! Partie index-newsletters (vérifier si duplication nécessaire) */
@@ -272,7 +284,9 @@ footer p a:hover{
         line-height: 20px;
         margin-right: 1em;
     }
-
+    main{
+        background-size: cover!important;
+    }
     /* * Partie Worklist */
     #index-worklist{
         display: flex;
@@ -282,7 +296,6 @@ footer p a:hover{
     .work-card{
         width: 300px!important;
     }
-
     #CGU{
         width: 70%;
     }
