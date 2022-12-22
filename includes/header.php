@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Horizon Dev Web</title>
+    <title>Horizon - <?= $title; ?></title>
     <meta name="description" content="Développement Agence Web Projet AP1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -13,20 +13,21 @@
 <body>
     <header id="body-header">
         <h1 id="title"><span class="highlight">Horizon</span> Dev Web</h1>
+        <!-- <p><?= $title; ?></p> -->
         <details id="nav-small">
             <summary>Menu</summary>
             <nav>
                 <a href="index.php">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Follow-up</a>
+                <a href="about.php" title="Notre entreprise">About</a>
+                <a href="services.php" title="Nos offres">Services</a>
+                <a href="contact.php" title="Contactez-nous !">Contact</a>
             </nav>
         </details>
         <nav id="nav-large">
             <a href="index.php">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Follow-up</a>
+            <a href="about.php" title="Notre entreprise">About</a>
+            <a href="services.php" title="Nos offres">Services</a>
+            <a href="contact.php" title="Contactez-nous !">Contact</a>
         </nav>
     </header>
-    <div id="page-content">
+    <main style="background: url('assets/images/<?= $title ;?>.jpg');">

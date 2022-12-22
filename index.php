@@ -1,9 +1,10 @@
 <?php
+$title = "home";
 require_once(__DIR__ . '/includes/header.php');
 // TODO require_once(__DIR__ . '/includes/aside.php');
 ?>
 
-<main id="index-main">
+
     <header id="index-main-header">
         <h1 id="index-main-title">
             Sites Web <span class="highlight">professionnels</span>, et <span class="highlight">accessibles</span> !
@@ -34,8 +35,6 @@ require_once(__DIR__ . '/includes/header.php');
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo officiis saepe ipsum harum eaque. Iste.</p>
         </div>
     </section>
-
-</main>
 
 <?php
 require_once(__DIR__ . '/includes/footer.php');
