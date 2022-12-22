@@ -29,7 +29,7 @@ h1{
     border-bottom: 3px solid #EB4314;
     width: 100%;
     padding: 1em;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     display: flex;
@@ -76,7 +76,7 @@ h1{
 
 /* * Partie Main/Page-Content */
 #index-main{
-    background-image: url("../images/wallpaper2.jpg");
+    background-image: url("../images/wallpaper1.jpg");
     background-position: fixed;
     background-attachment: fixed;
     background-size: cover;
@@ -180,8 +180,32 @@ h1{
     background: #35424A;
     border-top: 3px solid #EB4314;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+footer p{
+    display: block;
+}
+footer p a{
+    margin: 0 .5em;
+    line-height: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+}
+footer p a:hover{
+    color: #EB4314;
+}
+
+/* * Page CGU.php */
+
+#CGU{
+    margin: auto;
+    width: 80%;
+    height: 90vh;
+    overflow-y: scroll;
+    padding: 2em;
 }
 
 /* ? Media Queries */
