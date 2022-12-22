@@ -204,7 +204,7 @@ footer p a:hover{
 
 #CGU{
     margin: auto;
-    width: 60%;
+    width: 90%;
     height: 100vh;
     overflow-y: scroll;
     padding: 2em;
@@ -265,6 +265,10 @@ footer p a:hover{
     }
     .work-card{
         width: 300px!important;
+    }
+
+    #CGU{
+        width: 70%;
     }
 }
 @media screen and (min-width: 1024px){}
