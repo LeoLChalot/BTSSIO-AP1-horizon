@@ -4,8 +4,8 @@ require_once(__DIR__ . '/includes/header.php');
 <section id="CGU">
     <header>
         <h1>Conditions Générales</h1>
-        <p>Les présentes conditions générales régissent l'utilisation de ce site www.horizon-web.fr.</p>
-        <p>Ce site appartient et est géré par Leo Larou-chalot</p>
+        <p>Les présentes conditions générales régissent l'utilisation de ce site <span class="highlight">www.horizon-web.fr</span>.</p>
+        <p>Ce site appartient et est géré par <strong>Léo Larou-Chalot</strong></p>
         <p>En utilisant ce site, vous indiquez que vous avez lu et compris les conditions d'utilisation et que vous acceptez de les respecter en tout temps.</p>
         <p>Type de site : vitrine</p>
     </header>
@@ -13,7 +13,7 @@ require_once(__DIR__ . '/includes/header.php');
     <main>
         <article id="CGU-propriete-intellectuelle">
             <h2>Propriété Intellectuelle</h2>
-            <p>Tout contenu publié et mis à disposition sur ce site est la propriété de Leo Larou-chalot et de ses créateurs. Cela comprend, mais n'est pas limité aux Images, textes: logos, documents: fichiers téléchargeables et tout ce qui contribue à la composition de ce site.</p>
+            <p>Tout contenu publié et mis à disposition sur ce site est la propriété de <strong>Léo Larou-Chalot</strong> et de ses créateurs. Cela comprend, mais n'est pas limité aux Images, textes: logos, documents: fichiers téléchargeables et tout ce qui contribue à la composition de ce site.</p>
         </article>
         <article id="CGU-comptes">
             <h2>Comptes</h2>
@@ -71,11 +71,11 @@ require_once(__DIR__ . '/includes/header.php');
         </article>
         <article id="CGU-responsabilite">
             <h2>Limitation de responsabilité</h2>
-            <p>Leo Larou-chalot ou l'un de ses employés sera tenu responsable de tout problème découlant de ce site. Néanmoins: Leo Larou-chalot et ses employés ne seront pas tenus responsables de tout problème découlant de toute utilisation irrégulière de ce site.</p>
+            <p><strong>Léo Larou-Chalot</strong> ou l'un de ses employés sera tenu responsable de tout problème découlant de ce site. Néanmoins: <strong>Léo Larou-Chalot</strong> et ses employés ne seront pas tenus responsables de tout problème découlant de toute utilisation irrégulière de ce site.</p>
         </article>
         <article id="CGU-indemnites">
             <h2>Indemnités</h2>
-            <p>En tant qu'utilisateur, vous indemnisez par les présentes Leo Larou-chalot de toute responsabilité, de tout coût- de toute cause d'action, de tout dommage ou de toute dépense découlant de votre utilisation de ce site ou de votre violation de l'une des dispositions énoncées dans le présent document.</p>
+            <p>En tant qu'utilisateur, vous indemnisez par les présentes <strong>Léo Larou-Chalot</strong> de toute responsabilité, de tout coût- de toute cause d'action, de tout dommage ou de toute dépense découlant de votre utilisation de ce site ou de votre violation de l'une des dispositions énoncées dans le présent document.</p>
         </article>
         <article id="CGU-lois">
             <h2>Lois applicables</h2>

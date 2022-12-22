@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 ::-webkit-scrollbar{
     /* overflow-y: hidden;
@@ -31,9 +32,9 @@ h1{
     background: #35424A;
     border-bottom: 3px solid #EB4314;
     width: 100%;
-    min-height: 3vh;
+    min-height: 10vh;
     padding: 1em;
-    position: relative;
+    position: sticky;
     top: 0;
     left: 0;
     display: flex;
@@ -43,6 +44,7 @@ h1{
     justify-content: space-around;
     box-shadow: 0px 10px 19px 7px rgba(0, 0, 0, .5);
 }
+
 #body-header #nav-small{
     color: #ffffff;
     list-style-type: none;
@@ -58,13 +60,15 @@ h1{
 #body-header #nav-large a{
     display: none;
 }
-
 #body-header #nav-small nav{
     width: 100%;
     margin: auto;
     text-align: center;
     display: flex;
     flex-direction: column;
+}
+#body-header #nav-small nav a{
+    margin-top: 2em;
 }
 #body-header nav a{
     margin-right: 2em;
@@ -80,16 +84,16 @@ h1{
 
 /* * Partie Main/Page-Content */
 #index-main{
+    width: 100%;
     background-image: url("../images/wallpaper1.jpg");
-    background-position: fixed;
     background-attachment: fixed;
+    background-position: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     top: 0;
-    min-height: 97vh;
 }
 #index-main #index-main-header{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     color: #ffffff;
     background: rgba(255, 255, 255, 0.1);
