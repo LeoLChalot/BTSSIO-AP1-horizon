@@ -204,7 +204,7 @@ footer p a:hover{
 
 #CGU{
     margin: auto;
-    width: 90%;
+    width: 95%;
     height: 100vh;
     overflow-y: scroll;
     padding: 2em;
@@ -236,6 +236,8 @@ footer p a:hover{
 }
 #CGU #CGU-contact p:last-child{
     text-align: right;
+    padding-top: 1em;
+    font-size: .6em;
 }
 
 /* ? Media Queries */
