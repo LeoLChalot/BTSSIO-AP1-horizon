@@ -6,11 +6,13 @@
     padding: 0;
 }
 ::-webkit-scrollbar{
-    overflow-y: hidden;
-    visibility: hidden;
+    /* overflow-y: hidden;
+    visibility: hidden; */
+    width: 0px;
 }
 body{
     width: 100%;
+    min-height: 100vh;
 }
 h1{
     font-size: 2em;
@@ -202,10 +204,38 @@ footer p a:hover{
 
 #CGU{
     margin: auto;
-    width: 80%;
-    height: 90vh;
+    width: 60%;
+    height: 100vh;
     overflow-y: scroll;
     padding: 2em;
+}
+#CGU h1{
+    text-align: center;
+    line-height: 2em;
+}
+#CGU header p:last-child{
+    margin-top: 1em;
+    text-align: center;
+}
+#CGU h2{
+    margin-top: 2em;
+}
+#CGU p{
+    text-align: justify;
+}
+#CGU ul,
+#CGU ol{
+    margin: 1em 0;
+}
+#CGU li{
+    padding-left: 1em;
+}
+#CGU #CGU-contact address{
+    display: block;
+    margin-top: 1em;
+}
+#CGU #CGU-contact p:last-child{
+    text-align: right;
 }
 
 /* ? Media Queries */

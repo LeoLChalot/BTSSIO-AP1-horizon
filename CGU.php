@@ -19,8 +19,8 @@ require_once(__DIR__ . '/includes/header.php');
             <h2>Comptes</h2>
             <p>Lorsque vous créez un compte sur notre site, vous acceptez ce qui suit :</p>
             <ol>
-                <li>Que vous êtes seul responsable de votre compte et de la sécurité et la confidentialité de votre comptez y compris les mots de passe ou les renseignements de nature délicate joints à ce compte, et</li>
-                <li>Que tous les renseignements personnels que vous nous fournissez par l'entremise de votre compte sont à jour, exacts et véridiques et que vous mettrez à jour vos renseignements personnels s'ils changent.</li>
+                <li><em>Que vous êtes seul responsable de votre compte et de la sécurité et la confidentialité de votre comptez y compris les mots de passe ou les renseignements de nature délicate joints à ce compte, et</em></li>
+                <li><em>Que tous les renseignements personnels que vous nous fournissez par l'entremise de votre compte sont à jour, exacts et véridiques et que vous mettrez à jour vos renseignements personnels s'ils changent.</em></li>
             </ol>
             <p>Nous nous réservons le droit de suspendre ou de résilier votre compte si vous utilisez notre site illégalement ou si vous violez les conditions d 'utilisation acceptable.</p>
         </article>
@@ -29,9 +29,9 @@ require_once(__DIR__ . '/includes/header.php');
             <p>Ce document régit la vente des prestations mises à disposition sur notre site.</p>
             <p>Les prestations que nous offrons comprennent :</p>
             <ul>
-                <li>Sites Web</li>
-                <li>Hébergements</li>
-                <li>Maintenance</li>
+                <li><em>Sites Web</em></li>
+                <li><em>Hébergements</em></li>
+                <li><em>Maintenance</em></li>
             </ul>
             <p>Les biens et services liés à ce document sont les biens et services qui sont affichés sur notre site au moment où vous y accédez. Cela comprend tous les produits énumérés comme étant en rupture de stock Toutes les informations: descriptions ou images que nous fournissons sur nos biens et services sont décrites et présentées avec la plus grande précision possible. Cependant, nous ne sommes pas légalement tenus par ces informations, descriptions ou Images car nous ne pouvons pas garantir l'exactitude de chaque produit ou service que nous fournissons. Vous acceptez d' acheter ces biens et services à vos propres risques.</p>
         </article>
@@ -39,9 +39,9 @@ require_once(__DIR__ . '/includes/header.php');
             <h2>Paiements</h2>
             <p>Nous acceptons les modes de paiement suivants sur ce site :</p>
             <ul>
-                <li>Carte bancaire</li>
-                <li>PayPal</li>
-                <li>Prélèvement automatique</li>
+                <li><em>Carte bancaire</em></li>
+                <li><em>PayPal</em></li>
+                <li><em>Prélèvement automatique</em></li>
             </ul>
             <p>Lorsque vous nous fournissez vos renseignements de paiement, vous nous confirmez que vous avez autorisé l'utilisation et l' accès à l' instrument de paiement que vous avez choisi d' utiliser. En nous fournissant vos détails de paiement, vous confirmez que vous nous autorisez à facturer le montant dû à cet instrument de paiement.</p>
             <p>Si nous estimons que votre paiement a violé une loi ou l'une de nos conditions d'utilisation, nous nous réservons le droit d' annuler votre transaction.</p>
@@ -50,7 +50,7 @@ require_once(__DIR__ . '/includes/header.php');
             <h2>Services</h2>
             <p>Les services seront facturés en totalité une fois le service terminé.</p>
             <ul>
-                <li>Abonnements</li>
+                <li><em>Abonnements</em></li>
             </ul>
             <p>Tous nos abonnements récurrents seront automatiquement facturés et renouvelés jusqu'à ce que nous recevions l'avis que vous souhaitez annuler l’abonnement.</p>
         </article>
@@ -59,18 +59,18 @@ require_once(__DIR__ . '/includes/header.php');
             <p>Remboursement des biens</p>
             <p>Nous acceptons les demandes de remboursement sur notre site pour les produits qui répondent à l'une des exigences suivantes :</p>
             <ol>
-                <li>Le bien n' est pas tel que décrit</li>
-                <li>Changement de mentalité</li>
-                <li>Le bien ne répond pas aux attentes de l'utilisateur</li>
+                <li><em>Le bien n' est pas tel que décrit</em></li>
+                <li><em>Changement de mentalité</em></li>
+                <li><em>Le bien ne répond pas aux attentes de l'utilisateur</em></li>
             </ol>
             <p>Les demandes de remboursement peuvent être faites dans les délais de 60 jours après la réception de vos biens et services.</p>
             <p>Les remboursements ne s' appliquent pas aux produits/services suivants :</p>
             <ol>
-                <li>Hébergement</li>
+                <li><em>Hébergement</em></li>
             </ol>
         </article>
         <article id="CGU-responsabilite">
-            <h2>Limitétion de responsabilité</h2>
+            <h2>Limitation de responsabilité</h2>
             <p>Leo Larou-chalot ou l'un de ses employés sera tenu responsable de tout problème découlant de ce site. Néanmoins: Leo Larou-chalot et ses employés ne seront pas tenus responsables de tout problème découlant de toute utilisation irrégulière de ce site.</p>
         </article>
         <article id="CGU-indemnites">
@@ -95,9 +95,9 @@ require_once(__DIR__ . '/includes/header.php');
         <article id="CGU-contact">
             <h2>Contact</h2>
             <p>Veuillez communiquer avec nous si vous avez des questions ou des préoccupations. Nos coordonnées sont les suivantes :</p>
-            <a href="mailto:horizon-web@contact.fr">horizon-web@contact.fr</a>
-            <addess>25 rue Claude Tillier, 75012, Paris</addess>
-            <p>Date d'entrée en vigueur : le 1 janvier 2023.</p>
+            <p><a href="mailto:horizon-web@contact.fr">horizon-web@contact.fr</a></p>
+            <p><address>25 rue Claude Tillier, 75012, Paris</address></p>
+            <p><em>Date d'entrée en vigueur : le 1 janvier 2023.</em></p>
         </article>
     </main>
 </section>

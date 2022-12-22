@@ -16,14 +16,14 @@
         <details id="nav-small">
             <summary>Menu</summary>
             <nav>
-                <a href="#">Home</a>
+                <a href="index.php">Home</a>
                 <a href="#">About</a>
                 <a href="#">Services</a>
                 <a href="#">Follow-up</a>
             </nav>
         </details>
         <nav id="nav-large">
-            <a href="#">Home</a>
+            <a href="index.php">Home</a>
             <a href="#">About</a>
             <a href="#">Services</a>
             <a href="#">Follow-up</a>
