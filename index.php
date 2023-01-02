@@ -5,15 +5,14 @@ require_once(__DIR__ . '/includes/header.php');
 ?>
 
 
-<header id="index-main-header">
+<section id="index-main-header">
     <div id="index-main-header-content">
         <h1 id="index-main-title">
             Sites Web <span class="highlight">professionnels</span>, et <span class="highlight">accessibles</span> !
         </h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, ipsum debitis provident voluptatem aperiam quidem perferendis suscipit eius deleniti recusandae quibusdam, et natus unde consectetur?</p>
     </div>
-
-</header>
+</section>
 <section id="index-newsletter">
     <p>Restez informés avec notre Newsletter !</p>
     <form action="#">

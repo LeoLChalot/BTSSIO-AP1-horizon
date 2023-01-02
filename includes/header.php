@@ -30,4 +30,9 @@
             <a href="contact.php" title="Contactez-nous !">Contact</a>
         </nav>
     </header>
-    <main style="background: #35424A url('assets/images/<?= $title ;?>.jpg');">
+    <main 
+    <?php if($title == "home"): ?>
+    style="background: #35424A url('assets/images/<?= $title ;?>.jpg');"
+    <?php endif; ?>
+    >
+    
