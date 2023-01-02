@@ -7,8 +7,6 @@
     font-family: sans-serif;
 }
 ::-webkit-scrollbar{
-    /* overflow-y: hidden;
-    visibility: hidden; */
     width: 0px;
 }
 body{
@@ -16,13 +14,22 @@ body{
 
     overflow-y: scroll;
 }
+main{
+    width: 100vw;
+    background-attachment: fixed!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    top: 0;
+}
 h1{
     font-size: 2em;
 }
 .highlight{
-    color: #EB4314;
+    color: rgba(235, 67, 20);
+    filter: brightness(1.3);
 }
-/* * Css index.php */
+/* ********** PAGE HOME ***********/
 /* * Partie Header */
 #body-header h1,
 #body-header a{
@@ -51,13 +58,11 @@ h1{
     font-size: large;
     font-weight: 800;
 }
-
 #body-header #nav-small{
     color: #ffffff;
     list-style-type: none;
     display: block;
 }
-
 #body-header #nav-large{
     display: flex;
     flex-direction: row;
@@ -90,16 +95,6 @@ h1{
 }
 
 /* * Partie Main/Page-Content */
-main{
-    width: 100vw;
-
-    /* background: url('../images/.jpg'); */
-    background-attachment: fixed!important;
-    background-position: center!important;
-    background-repeat: no-repeat!important;
-    background-size: cover!important;
-    top: 0;
-}
 #index-main-header{
     height: 90vh;
     width: 100%;
@@ -123,10 +118,10 @@ main{
     align-items: center;
     gap: 50px;
 }
-main #index-main-header #index-main-header-content h1{
+#index-main-header #index-main-header-content h1{
     padding: 0 .5em;
 }
-main #index-main-header #index-main-header-content p{
+#index-main-header #index-main-header-content p{
     width: 60%;
 }
 
@@ -197,7 +192,7 @@ main #index-main-header #index-main-header-content p{
 }
 
 /* * Partie Footer */
-#footer{
+footer{
     width: 100%;
     height: 100px;
     text-align: center;
@@ -223,8 +218,7 @@ footer p a:hover{
     color: #EB4314;
 }
 
-/* * Page CGU.php */
-
+/* ********** PAGE CGU ********** */
 #CGU{
     margin: auto;
     width: 95%;
@@ -265,21 +259,49 @@ footer p a:hover{
     font-size: .6em;
 }
 
+/* ********** PAGES ET SOUS CATEGORIES SERVICES ********** */
+#services{
+    width: 100%;
+    margin: auto;
+    background:rgba(53, 66, 74, 1);
+    color:#fff;
+    padding: 1em;
+    box-shadow: 2px 4px 22px 0px rgba(0, 0, 0, 0.8);
+    text-align: justify;
+}
+#services h2{
+    text-align: center;
+}
 .card-container {
 	perspective: 1000px;
 	display: flex;
+    padding: 2em;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-	flex-wrap: wrap;
-	gap: 50px;
     width: 100%;
-    height: 90vh;
     margin: auto;
 }
+#bg-developpement-front{
+    background-image: url('../images/dev.jpg');
+}
+#bg-maintenance-front{
+    background-image: url('../images/maintenance.jpg');
+}
+#bg-hebergement-front{
+    background-image: url('../images/hosting.jpg');
+}
 
+#bg-hebergement-front, 
+#bg-maintenance-front,
+#bg-developpement-front{
+    background-size: cover;
+    background-position: center;
+}
 .card {
-	width: 200px;
+	width: 400px;
 	height: 200px;
+    margin: 1em 0;
 	border-radius: 5px;
 	position: relative;
 	transform-style: preserve-3d;
@@ -287,7 +309,6 @@ footer p a:hover{
 	border: 1px solid black;
 	box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 1);
 }
-
 .front,
 .back {
 	position: absolute;
@@ -295,35 +316,31 @@ footer p a:hover{
 	height: 100%;
 	backface-visibility: hidden;
 }
-
 .front {
 	z-index: 2;
 	background-size: cover;
-    background: rgba(53, 66, 74, .6);
+    background: rgba(53, 66, 74, .4);
 }
 .front .card-content {
-	backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
 }
-
 .back {
 	background-size: cover;
 	transform: rotateY(180deg);
-    background: rgba(235, 67, 20, .5);
+    background: rgb(166, 46, 13);
 }
-
 .card-content {
 	width: 100%;
 	height: 100%;
 	color: #fff;
+    font-weight: bold;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-
 .card:hover {
 	transform: rotateY(180deg);
 }
-
 .card-link {
 	display: block;
 	line-height: 2em;
@@ -337,19 +354,68 @@ footer p a:hover{
 	border-radius: 5px;
 	transition: all .3s;
 }
-
 .card-link:hover {
 	letter-spacing: 2px;
 	background: rgba(216, 216, 216, 0.4);
+}
+/* * Développement */
+#developpement-forfaits{
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forfait-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 400px;
+    text-align: justify;
+    justify-content: center;
+    margin: auto;
+    padding: 1.3em;
+    margin-top: 2em; 
+    background: rgba(53, 66, 74, .9);
+    color: #fff;
+    box-shadow: 2px 4px 22px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+.btn-services{
+    width: 250px;
+    margin: 1em;
+    background: #EB4314;
+    color: #fff;
+    border: none;
+    margin-top: 2em;
+    border-radius: 5px;
+    padding: .5em .7em;
+    transition: all .5s;
+}
+.btn-services:hover{
+    cursor: pointer;
+    letter-spacing: 3px;
+    background: #fff;
+    color: #EB4314;
+    box-shadow: 2px 4px 22px 0px rgba(0, 0, 0, 0.4);
 }
 
 
 /* ? Media Queries */
 @media screen and (min-width: 768px){
+    body{
+        min-height: 100vh;
+    }
+    footer{
+        position: relative;
+        bottom: 0;
+    }
     /* * Partie Header */
     #body-header{
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
     #body-header #nav-small{
         display: none;
@@ -362,8 +428,8 @@ footer p a:hover{
         line-height: 20px;
         margin-right: 1em;
     }
-    main{
-        background-size: cover!important;
+    #index-main-header{
+        height: 90vh;
     }
     /* * Partie Worklist */
     #index-worklist{
@@ -374,9 +440,34 @@ footer p a:hover{
     .work-card{
         width: 300px!important;
     }
+    .card-container{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .card {
+        width: 300px;
+        height: 400px;
+        margin: 1em 0;
+        border-radius: 5px;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 1s;
+        border: 1px solid black;
+        box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 1);
+    }
+    #developpement-forfaits{
+        margin-bottom: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .forfait-wrapper{
+        width: 500px;
+    }
     #CGU{
         width: 70%;
     }
 }
-@media screen and (min-width: 1024px){}
-@media screen and (min-width: 1824px){}

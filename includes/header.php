@@ -13,7 +13,6 @@
 <body>
     <header id="body-header">
         <h1 id="title"><span class="highlight">Horizon</span> Dev Web</h1>
-        <!-- <p><?= $title; ?></p> -->
         <details id="nav-small">
             <summary>Menu</summary>
             <nav>
@@ -32,7 +31,7 @@
     </header>
     <main 
     <?php if($title == "home"): ?>
-    style="background: #35424A url('assets/images/<?= $title ;?>.jpg');"
+    style="background: url('assets/images/<?= $title ;?>.jpg');"
     <?php endif; ?>
     >
     
