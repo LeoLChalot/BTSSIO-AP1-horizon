@@ -1,9 +1,9 @@
 <?php
-$title = "services - Développement";
+$title = "Services - Développement";
 require_once(__DIR__ . '/includes/header.php');
 // TODO require_once(__DIR__ . '/includes/aside.php');
 ?>
-<section id="developpement-forfaits">
+<section class="services" id="developpement-forfaits">
     <div id="forfait-basique" class="forfait-wrapper">
         <h2>Forfait <span class="highlight">"Basique"</span></h2>
         <br>
@@ -29,7 +29,7 @@ require_once(__DIR__ . '/includes/header.php');
         <button class="btn-services">Prendre rendez-vous</button>
     </div>
     <div id="forfait-SurMesure" class="forfait-wrapper">
-        <h2><span class="highlight">Sur mesure</span></h2>
+        <h2>Forfait <span class="highlight">"sur mesure"</span></h2>
         <br>
         <p>Et parce que chaque projet est unique, Iil est également possible de proposer des forfaits sur mesure en fonction des besoins spécifiques de chaque projet. Nous prenons à coeur nos engagement et votre satisfaction</p>
         <button class="btn-services">Prendre rendez-vous</button>
