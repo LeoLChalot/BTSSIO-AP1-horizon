@@ -20,6 +20,7 @@ try {
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Horizon - <?= $title; ?></title>
+    <link rel="icon" type="image/png" href="assets/images/logo2.png">
     <meta name="description" content="Développement Agence Web Projet AP1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/style.css">
