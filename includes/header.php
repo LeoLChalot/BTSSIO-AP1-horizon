@@ -29,7 +29,7 @@ try {
 <body>
     <header id="body-header">
         <h1 id="title"><span class="highlight">Horizon</span> Dev Web</h1>
-        <details id="nav-small">
+        <!-- <details id="nav-small">
             <summary>Menu</summary>
             <nav>
                 <a href="index.php">Home</a>
@@ -37,7 +37,12 @@ try {
                 <a href="services.php" title="Nos offres">Services</a>
                 <a href="contact.php" title="Contactez-nous !">Contact</a>
             </nav>
-        </details>
+        </details> -->
+        <div id="btn-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <nav id="nav-large">
             <a href="index.php">Home</a>
             <a href="about.php" title="Notre entreprise">About</a>
@@ -45,4 +50,5 @@ try {
             <a href="contact.php" title="Contactez-nous !">Contact</a>
         </nav>
     </header>
+
     <main <?php if ($title == "home") : ?> style="background: url('assets/images/<?= $title; ?>.jpg');" <?php endif; ?>>

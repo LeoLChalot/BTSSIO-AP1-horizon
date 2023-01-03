@@ -7,6 +7,7 @@
         <a href="CGU.php" target="_blank" title="Lire les CGU">CGU</a>
     </p>
 </footer>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
 <?php
