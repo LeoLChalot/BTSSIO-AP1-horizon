@@ -8,5 +8,7 @@
     </p>
 </footer>
 </body>
-
 </html>
+<?php
+    $conn = null;
+?>
