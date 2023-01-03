@@ -3,11 +3,11 @@ $title = "home";
 require_once(__DIR__ . '/includes/header.php');
 ?>
 <section id="index-main-header">
-    <div id="index-main-header-content">
+    <div id="index-main-header-home">
         <h1 id="index-main-title">
             Sites Web <span class="highlight">professionnels</span>, et <span class="highlight">accessibles</span> !
         </h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, ipsum debitis provident voluptatem aperiam quidem perferendis suscipit eius deleniti recusandae quibusdam, et natus unde consectetur?</p>
+        <p>Des prestations de qualité pour un horizons de possibilités...</p>
     </div>
 </section>
 <section id="index-newsletter">
@@ -20,18 +20,18 @@ require_once(__DIR__ . '/includes/header.php');
 <section id="index-worklist">
     <div class="work-card">
         <img class="img-worklist" src="assets/images/logo2.png" alt="img prestation">
-        <h3>Web Design</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis deserunt esse ipsum officia quas maiores.</p>
+        <h3>Développement Web</h3>
+        <p>Notre entreprise offre des services de développement web de qualité pour aider les entreprises à atteindre leurs objectifs en ligne.</p>
     </div>
     <div class="work-card">
         <img class="img-worklist" src="assets/images/logo2.png" alt="img prestation">
-        <h3>Website Maintenance</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium voluptates laboriosam adipisci possimus officia cumque.</p>
+        <h3>Maintenance</h3>
+        <p>Notre entreprise offre des services de maintenance web pour assurer la pérennité de votre site ou application. Nous nous occupons des mises à jour, des corrections de bugs et des améliorations pour garantir le bon fonctionnement de votre projet en ligne.</p>
     </div>
     <div class="work-card">
         <img class="img-worklist" src="assets/images/logo2.png" alt="img prestation">
-        <h3>Website Hosting</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo officiis saepe ipsum harum eaque. Iste.</p>
+        <h3>Hébergement</h3>
+        <p>Notre entreprise offre des services d'hébergement web fiables et sécurisés pour votre site ou application. Nous proposons différentes options d'hébergement adaptées à vos besoins et à votre budget.</p>
     </div>
 </section>
 <?php

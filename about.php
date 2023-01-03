@@ -5,7 +5,7 @@ require_once(__DIR__ . '/includes/header.php');
 ?>
 <section id="about-entreprise">
     <h2>Notre entreprise, votre projet</h2>
-    <p>Notre entreprise de développement web est spécialisée dans la création de sites internet et d'applications web sur mesure. Nous travaillons en étroite collaboration avec nos clients pour comprendre leurs besoins et leur offrir des solutions adaptées et performantes. Nous sommes passionnés par notre métier et mettons tout en œuvre pour offrir un service de qualité à nos clients. Nous utilisons les dernières technologies et techniques de développement pour garantir des résultats à la hauteur de vos attentes.</p>
+    <p>Notre entreprise offre des services de développement web de qualité pour aider les entreprises à atteindre leurs objectifs en ligne. Nous travaillons avec des technologies de pointe pour créer des sites web et des applications performants et attrayants. Nous proposons également des services de maintenance et de mise à jour pour assurer la pérennité de votre projet. Nous sommes passionnés par notre métier et nous nous engageons à fournir un travail de qualité à chaque étape du processus de développement. N'hésitez pas à nous contacter pour discuter de votre projet et de la façon dont nous pouvons vous aider à le réaliser.</p>
 </section>
 
 

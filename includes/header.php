@@ -51,4 +51,4 @@ try {
         </nav>
     </header>
 
-    <main <?php if ($title == "home") : ?> style="background: url('assets/images/<?= $title; ?>.jpg');" <?php endif; ?>>
+    <main <?php if ($title == "home") : ?> style="background: url('assets/images/home-bg.jpg');" <?php endif; ?>>
