@@ -282,19 +282,19 @@ footer p a:hover{
     width: 100%;
     margin: auto;
 }
-#bg-developpement-front{
+#bg-1-front{
     background-image: url('../images/dev.jpg');
 }
-#bg-maintenance-front{
+#bg-2-front{
     background-image: url('../images/maintenance.jpg');
 }
-#bg-hebergement-front{
+#bg-3-front{
     background-image: url('../images/hosting.jpg');
 }
 
-#bg-hebergement-front, 
-#bg-maintenance-front,
-#bg-developpement-front{
+#bg-1-front, 
+#bg-2-front,
+#bg-3-front{
     background-size: cover;
     background-position: center;
 }
@@ -308,6 +308,7 @@ footer p a:hover{
 	transition: transform 1s;
 	border: 1px solid black;
 	box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 1);
+    transition: ease 1s;
 }
 .front,
 .back {
