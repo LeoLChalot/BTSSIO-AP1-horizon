@@ -2,8 +2,6 @@
 $title = "home";
 require_once(__DIR__ . '/includes/header.php');
 ?>
-
-
 <section id="index-main-header">
     <div id="index-main-header-content">
         <h1 id="index-main-title">
@@ -36,7 +34,6 @@ require_once(__DIR__ . '/includes/header.php');
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo officiis saepe ipsum harum eaque. Iste.</p>
     </div>
 </section>
-
 <?php
 require_once(__DIR__ . '/includes/footer.php');
 ?>

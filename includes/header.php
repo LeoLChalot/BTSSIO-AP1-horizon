@@ -44,9 +44,4 @@ try {
             <a href="contact.php" title="Contactez-nous !">Contact</a>
         </nav>
     </header>
-    <main 
-    <?php if($title == "home"): ?>
-    style="background: url('assets/images/<?= $title ;?>.jpg');"
-    <?php endif; ?>
-    >
-    
+    <main <?php if ($title == "home") : ?> style="background: url('assets/images/<?= $title; ?>.jpg');" <?php endif; ?>>
