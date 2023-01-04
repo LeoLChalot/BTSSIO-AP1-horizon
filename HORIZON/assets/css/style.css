@@ -16,9 +16,9 @@ body {
 main {
 	width: 100vw;
 	background-attachment: fixed !important;
-	background-position: center !important;
+	background-position:center !important;
 	background-repeat: no-repeat !important;
-	background-size: cover !important;
+	background-size:cover !important;
 	top: 0;
 }
 h1 {
@@ -140,44 +140,6 @@ h1 {
 	width: 60%;
 }
 
-/* ********* PAGE ABOUT ********** */
-#about-entreprise {
-	width: 100%;
-	height: 80vh;
-	padding: 2em;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-#about-entreprise .about-img {
-	z-index: 2;
-	width: 100%;
-	max-width: 300px;
-	border-radius: 50%;
-	overflow: hidden;
-	text-align: center;
-	opacity: .3;
-}
-#about-entreprise .about-img img {
-	width: 100%;
-	opacity: .9;
-}
-#about-entreprise .about-txt {
-	margin-top: 2em;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-#about-entreprise .about-txt h2{
-	color: #eb4314;
-}
-#about-entreprise .about-txt p{
-	color: #ccc;
-}
 /* ! Partie index-newsletters (vérifier si duplication nécessaire) */
 #index-newsletter {
 	width: 100%;
@@ -533,33 +495,6 @@ footer p a:hover {
 	#index-main-header {
 		height: 90vh;
 	}
-	/* ********* PAGE ABOUT ********** */
-	#about-entreprise {
-		width: 100%;
-		flex-direction: row;
-		justify-content: space-around;
-		align-items: center;
-		background: rgb(53, 66, 74);
-		background: linear-gradient(328deg, rgba(53, 66, 74, 1) 66%, rgba(235, 67, 20, 1) 100%);
-	}
-
-	#about-entreprise .about-img {
-		width: 300px;
-
-		text-align: center;
-	}
-	#about-entreprise .about-img img {
-		width: 100%;
-	}
-	#about-entreprise .about-txt {
-		margin-top: 2em;
-		text-align: justify;
-		width: 45%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
 	/* * Partie Worklist */
 	#index-worklist {
 		display: flex;
@@ -602,9 +537,9 @@ footer p a:hover {
 		width: 500px;
 	}
 
-	#contact form {
-		width: 50%;
-	}
+    #contact form {
+        width: 50%;
+    }
 	#CGU {
 		width: 70%;
 	}
