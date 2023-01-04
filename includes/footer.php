@@ -1,5 +1,8 @@
 </main> <!-- FIN #page-content (header.php)-->
-<footer id="footer-<?php $title ?>">
+<div id="btn-up">
+    <a href="#">Up</a>
+</div>
+<footer id="footer">
     <p>Horizon Dev Web, Copyright&copy;, 2022</p>
     <p>
         <a href="contact.php" target="_blank" title="Contactez-nous !">Contact</a>
