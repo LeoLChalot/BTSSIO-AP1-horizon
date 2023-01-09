@@ -14,10 +14,9 @@ html{
 }
 body {
 	width: 100%;
-	min-height: 100vh;
+	height: 100vh;
 }
 main {
-	width: 100vw;
 	background-attachment: fixed !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
@@ -26,6 +25,9 @@ main {
 }
 h1 {
 	font-size: 2em;
+}
+a{
+	text-decoration: none;
 }
 .highlight {
 	color: rgba(235, 67, 20);
@@ -66,6 +68,7 @@ h1 {
 #body-header h1,
 #body-header a {
 	color: #ffffff;
+	text-decoration: none;
 }
 #body-header {
 	z-index: 999;
@@ -185,7 +188,6 @@ h1 {
 }
 
 #about-entreprise .about-img {
-	z-index: 999;
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;

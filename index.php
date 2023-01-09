@@ -7,7 +7,6 @@ require_once(__DIR__ . '/includes/header.php');
         <h1 id="index-main-title">
             Sites Web <span class="highlight">professionnels</span>, et <span class="highlight">accessibles</span> !
         </h1>
-        <img id="logo-home" src="assets/images/logo2.png" alt="logo entreprise">
         <p>Des prestations de qualité pour un horizons de possibilités...</p>
     </div>
 </section>

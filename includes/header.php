@@ -28,16 +28,7 @@ try {
 
 <body>
     <header id="body-header">
-        <h1 id="title"><span class="highlight">Horizon</span> Dev Web</h1>
-        <!-- <details id="nav-small">
-            <summary>Menu</summary>
-            <nav>
-                <a href="index.php">Home</a>
-                <a href="about.php" title="Notre entreprise">About</a>
-                <a href="services.php" title="Nos offres">Services</a>
-                <a href="contact.php" title="Contactez-nous !">Contact</a>
-            </nav>
-        </details> -->
+        <h1 id="title"><a href="index.php"><span class="highlight">Horizon</span> Dev Web</a></h1>
         <div id="btn-burger">
             <span></span>
             <span></span>

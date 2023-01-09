@@ -5,7 +5,7 @@ require_once(__DIR__ . '/includes/header.php');
 ?>
 <section id="about-entreprise">
     <div class="about-img">
-        <!-- <img src="assets/images/logo2.png" alt="Logo de l'entreprise"> -->
+        <img src="assets/images/logo2.png" alt="Logo de l'entreprise">
     </div>
     <div class="about-txt">
         <h2>Notre entreprise, votre projet</h2>
