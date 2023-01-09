@@ -41,7 +41,7 @@ require_once(__DIR__ . '/includes/header.php');
                 </ul>
             </div>
             <div class="description">
-                <h1>Learning to Code in python</h1>
+                <h1><?= $fetch[$i]['poste']; ?></h1>
                 <h2>Lorem ipsum dolor sit amet</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto
