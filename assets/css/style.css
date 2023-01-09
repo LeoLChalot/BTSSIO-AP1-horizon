@@ -569,9 +569,13 @@ footer p a:hover {
 	border-radius: 5px;
 	overflow: hidden;
 	z-index: 0;
+	transition: all .3s;
 }
 .blog-card a {
 	color: inherit;
+}
+.blog-card:hover{
+	box-shadow: 5px 7px 24px 0px rgba(0, 0, 0, 1);
 }
 .blog-card a:hover {
 	color: #5784ba;
@@ -688,10 +692,6 @@ footer p a:hover {
 .card-service {
 	width: 300px;
 }
-
-
-
-
 
 /* ? Media Queries */
 @media screen and (min-width: 768px) {
