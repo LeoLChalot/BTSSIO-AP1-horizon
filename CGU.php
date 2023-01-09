@@ -5,7 +5,7 @@ require_once(__DIR__ . '/includes/header.php');
 <section id="CGU">
     <article id="CGU-header">
         <h1>Conditions Générales</h1>
-        <p>Les présentes conditions générales régissent l'utilisation de ce site <span class="highlight">www.horizon-web.fr</span>.</p>
+        <p>Les présentes conditions générales régissent l'utilisation de ce site <span class="highlight">www.horizon-dev-web.fr</span>.</p>
         <p>Ce site appartient et est géré par <strong>Léo Larou-Chalot</strong></p>
         <p>En utilisant ce site, vous indiquez que vous avez lu et compris les conditions d'utilisation et que vous acceptez de les respecter en tout temps.</p>
         <p>Type de site : vitrine</p>
@@ -94,7 +94,7 @@ require_once(__DIR__ . '/includes/header.php');
     <article id="CGU-contact">
         <h2>Contact</h2>
         <p>Veuillez communiquer avec nous si vous avez des questions ou des préoccupations. Nos coordonnées sont les suivantes :</p>
-        <p><a href="mailto:horizon-web@contact.fr">horizon-web@contact.fr</a></p>
+        <p><a href="mailto:horizon-dev-web@contact.fr">horizon-dev-web@contact.fr</a></p>
         <p>
         <address>25 rue Claude Tillier, 75012, Paris</address>
         </p>

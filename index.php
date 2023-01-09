@@ -19,12 +19,12 @@ require_once(__DIR__ . '/includes/header.php');
 </section>
 <section id="index-worklist">
     <div class="work-card">
-        <a href="services-developpement.php"><img class="img-worklist" src="assets/images/logo2.png" alt="img prestation"></a>
+        <img class="img-worklist" src="assets/images/logo2.png" alt="img prestation"></a>
         <h3>Développement Web</h3>
         <p>Notre entreprise offre des services de développement web de qualité pour aider les entreprises à atteindre leurs objectifs en ligne.</p>
     </div>
     <div class="work-card">
-        <a href="services-maintenance.php"><img class="img-worklist" src="assets/images/logo2.png" alt="img prestation"></a>
+        <img class="img-worklist" src="assets/images/logo2.png" alt="img prestation">
         <h3>Maintenance</h3>
         <p>Notre entreprise offre des services de maintenance web pour assurer la pérennité de votre site ou application. Nous nous occupons des mises à jour, des corrections de bugs et des améliorations pour garantir le bon fonctionnement de votre projet en ligne.</p>
     </div>
