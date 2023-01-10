@@ -25,7 +25,7 @@ require_once(__DIR__ . '/includes/header.php');
         <div class="back">
             <div class="services-card-content">
                 <!-- Contenu de la face arrière de la carte -->
-                <a class="services-card-link" href="<?= $fetch_result[$i]['services_url'];?>">En savoir plus</a>
+                <a class="services-card-link" href="services-details?id=<?php echo $fetch_result[$i]['id']?>&forfaits=<?php echo $fetch_result[$i]['name_services']?>">En savoir plus</a>
             </div>
         </div>
     </div>
