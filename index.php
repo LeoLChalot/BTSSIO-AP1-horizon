@@ -18,7 +18,7 @@ require_once(__DIR__ . '/includes/header.php');
     </form>
 </section>
 <section id="index-worklist">
-<?php
+    <?php
     $sth = $conn->prepare("SELECT id, name_services FROM services");
     $sth->execute();
     $fetch_result = $sth->fetchAll(PDO::FETCH_ASSOC);
