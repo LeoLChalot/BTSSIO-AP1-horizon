@@ -181,7 +181,7 @@ a{
 #about-entreprise {
 	background: linear-gradient(328deg, rgba(53, 66, 74, 1) 66%, rgba(235, 67, 20, 1) 100%);
 	width: 100%;
-	height: 100vh;
+	/* height: 100vh; */
 	padding: 0 2em;
 	display: flex;
 	flex-direction: column;
@@ -733,6 +733,7 @@ footer p a:hover {
 	/* ********* PAGE ABOUT ********** */
 	#about-entreprise {
 		width: 100%;
+		height: 100vh;
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
