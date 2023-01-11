@@ -18,7 +18,7 @@ require_once(__DIR__ . '/includes/header.php');
             <br>
             <?= $fetch_result[$i]['description']; ?>
             <p>Tarifs compris entre <span class="highlight"><?= $fetch_result[$i]['prix_min'] ?></span> et <span class="highlight"><?= $fetch_result[$i]['prix_max'] ?></span> €</p>
-            <button class="btn-services">Prendre rendez-vous</button>
+            <button class="btn-services"><a href="contact.php">Prendre rendez-vous</a></button>
         </div>
     <?php endfor; ?>
 </section>

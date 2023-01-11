@@ -278,6 +278,8 @@ a{
 }
 .work-card img {
 	width: 100%;
+	border-radius: 50%;
+	box-shadow: 6px 8px 25px 0px rgba(194, 194, 194, 1);
 }
 .work-card h3 {
 	line-height: 1.5em;
@@ -395,6 +397,7 @@ footer p a:hover {
 	background-size: cover;
 	background-position: center;
 }
+
 .services-card {
 	width: 400px;
 	height: 200px;
@@ -486,12 +489,15 @@ footer p a:hover {
 	width: 250px;
 	margin: 1em;
 	background: #eb4314;
-	color: #fff;
+	/* color: #fff; */
 	border: none;
 	margin-top: 2em;
 	border-radius: 5px;
 	padding: 0.5em 0.7em;
 	transition: all 0.5s;
+}
+.btn-services a{
+	color: #fff;
 }
 .btn-services:hover {
 	cursor: pointer;
@@ -499,6 +505,9 @@ footer p a:hover {
 	background: #fff;
 	color: #eb4314;
 	box-shadow: 2px 4px 22px 0px rgba(0, 0, 0, 0.4);
+}
+.btn-services:hover a{
+	color: #eb4314;
 }
 
 /* ********* PAGE CONTACT ********* */
